@@ -1,7 +1,7 @@
 Package: tk.ethanrdoesmc.translucency
 Name: Translucency
 Depends: mobilesubstrate
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Description: Make Cydia translucent!
 Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>

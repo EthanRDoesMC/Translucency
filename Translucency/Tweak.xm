@@ -8,20 +8,8 @@ NSMutableDictionary *settings = [NSMutableDictionary dictionaryWithContentsOfFil
 	NSNumber* allui = [settings objectForKey:@"beta"];
 	NSNumber* install = [settings objectForKey:@"logview"];
 	NSNumber* home = [settings objectForKey:@"homeview"];
-	NSNumber* except = [settings objectForKey:@"allothers"];
-	NSNumber* alphaopacity = [settings objectForKey:@"alphapref"];
-
-float goingtoconv = [alphaopacity floatValue];
-
-
-int firstPart = 0;
-int secondPart = goingtoconv;
-
-float afterDecimalPlace = (float)secondPart/100.0;
-
-float aop = (float)firstPart + afterDecimalPlace;
-
-
+	NSNumber* except = [settings objectForKey:@"allothers"];	
+		
 // if ([request.URL.absoluteString rangeOfString:URL].length != 0
 
 static NSString *logiPhone = @"cydia.saurik.com/ui/ios~iphone/1.1/progress";
@@ -53,7 +41,7 @@ static NSString *homeiPad = @"cydia.saurik.com/ui/ios~ipad/1.1/home";
                               delay:0.6
                             options:0
                          animations:^{
-                             self.alpha = aop;
+                             self.alpha = 0.65;
                              self.superview.backgroundColor = [UIColor clearColor];
                              }
                          completion:nil];
@@ -66,7 +54,7 @@ static NSString *homeiPad = @"cydia.saurik.com/ui/ios~ipad/1.1/home";
                               delay:0.6
                             options:0
                          animations:^{
-                             self.alpha = aop;
+                             self.alpha = 0.65;
                              self.superview.backgroundColor = [UIColor clearColor];
                              }
                          completion:nil];
@@ -80,7 +68,7 @@ static NSString *homeiPad = @"cydia.saurik.com/ui/ios~ipad/1.1/home";
                               delay:0.6
                             options:0
                          animations:^{
-                             self.alpha = aop;
+                             self.alpha = 0.65;
                              self.superview.backgroundColor = [UIColor clearColor];
                              }
                          completion:nil];
@@ -94,7 +82,7 @@ static NSString *homeiPad = @"cydia.saurik.com/ui/ios~ipad/1.1/home";
                               delay:0.6
                             options:0
                          animations:^{
-                             self.alpha = aop;
+                             self.alpha = 0.65;
                              self.superview.backgroundColor = [UIColor clearColor];
                              }
                          completion:nil];
@@ -113,7 +101,7 @@ static NSString *homeiPad = @"cydia.saurik.com/ui/ios~ipad/1.1/home";
                               delay:0.6
                             options:0
                          animations:^{
-                             self.alpha = aop;
+                             self.alpha = 0.65;
                              self.superview.backgroundColor = [UIColor clearColor];
                              }
                          completion:nil];

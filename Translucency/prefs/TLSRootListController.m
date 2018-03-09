@@ -9,5 +9,11 @@
 
 	return _specifiers;
 }
-
+-(void)respring {
+    CFNotificationCenterPostNotification (CFNotificationCenterGetDarwinNotifyCenter(),
+                                          CFSTR("respringDevice"),
+                                          NULL,
+                                          NULL,
+                                          false);
+}
 @end

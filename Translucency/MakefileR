@@ -1,16 +1,14 @@
 DEBUG = 0
 
 
-TARGET = simulator:clang::11.1
-TARGET_CODESIGN_FLAGS = -SEntitlements.xml
-
-ARCHS = x86_64
+ARCHS = arm64
+TARGET_CODESIGN_FLAGS = -SEntitlements.plist
 
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = TranslucencyParallax
-TranslucencyParallax_FILES = Pararelax.xm
-
+TranslucencyParallax_FILES = Pararelax
+TranslucencyParallax_CODESIGN_FLAGS = -SEntitlements.plist
 TranslucencyParallax_FRAMEWORKS = UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk

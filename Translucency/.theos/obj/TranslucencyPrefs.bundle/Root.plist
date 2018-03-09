@@ -68,7 +68,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Wanna try a beta feature? It&apos;s called, &quot;MAKE EVERYTHING TRANSLUCENT!&quot;</string>
+			<string>Wanna try a beta feature? It's called, "MAKE EVERYTHING TRANSLUCENT!"</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -93,36 +93,18 @@
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Respring</string>
-			<key>action</key>
-			<string>respring</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Version 2.2 Beta</string>
+			<string>Try different Eclipse/Noctis settings. This tweak is not complete, by any means. Starting from the ground up is hard.</string>
 		</dict>
-		<dict>
+	    <dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>Compass</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>tk.ethanrdoesmc.translucencyprefs</string>
-			<key>key</key>
-			<string>compassActive</string>
-			<key>label</key>
-			<string>Enable Compass (Alpha)</string>
+			<key>footerText</key>
+			<string>Version 1.1 (Cydia Only)</string>
 		</dict>
 	</array>
 	<key>title</key>
